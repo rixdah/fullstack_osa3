@@ -3,7 +3,6 @@ const express = require('express')
 const morgan = require('morgan')
 const cors = require('cors')
 const Person = require('./models/person')
-const uniqueValidator = require('mongoose-unique-validator')
 
 const app = express()
 
